@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS da aplicação -->
+    <link rel="stylesheet" href="css/app.css" />
+    <!-- Fonte Externa -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonte de Icones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>voXygen</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header-top">
+        <div class="header-top-container">
+          <div class="store-info-container">
+            <span><i class="fas fa-phone"></i> (99) 99999-9999</span>
+            <span><i class="fas fa-envelope"></i> voxygen@vox.com</span>
+            <span><i class="fas fa-location-dot"></i> Rua da Alegria, 123</span>
+          </div>
+          <div class="header-user-top-menu">
+            <span><i class="fas fa-dollar-sign"></i> <a href="#">BRL</a></span>
+            <span><i class="fas fa-user"></i> <a href="#">Minha Conta</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="main-header">
+        <div class="main-header-container">
+          <a href="#" id="brand">voXygen <i class="fas fa-dragon"></i></a>
+          <form action="" id="search-form">
+            <input type="text" id="search" placeholder="Busque aqui" />
+            <input type="submit" value="Pesquisar" class="btn btn-half" />
+          </form>
+          <div class="header-action-menu">
+            <div class="wishlist-container">
+              <span class="qty">0</span>
+              <i class="fas fa-heart"></i>
+              <a href="#">Favoritos</a>
+            </div>
+            <div class="header-cart-container">
+              <span class="qty">0</span>
+              <i class="fas fa-shopping-cart"></i>
+              <a href="#">Carrinho</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Promoções</a></li>
+            <li><a href="#">Hardware</a></li>
+            <li><a href="#">Smartphones</a></li>
+            <li><a href="#">Notebooks</a></li>
+            <li><a href="#">Acessórios</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- banners -->
+    <div class="banners">
+      <div class="banner" id="banner-1">
+        <div class="banner-cover"></div>
+        <div class="banner-content">
+          <h2>Promoção de Periféricos</h2>
+          <a href="#">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+      </div>
+      <div class="banner" id="banner-2">
+        <div class="banner-cover"></div>
+        <div class="banner-content">
+          <h2>Promoção de Placas de Vídeo</h2>
+          <a href="#">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+      </div>
+      <div class="banner" id="banner-3">
+        <div class="banner-cover"></div>
+        <div class="banner-content">
+          <h2>Promoção de Notebooks</h2>
+          <a href="#">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- products -->
+    <div class="products-grid">
+      <h2>Produtos Novos</h2>
+      <div class="products-grid-container">
+        <div class="products-grid-card">
+          <span class="label new">New</span>
+          <img src="/img/prod-1.jpg" alt="Monitor MSI Ultrawide" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Nome do Produto</h3>
+          <p class="product-price">R$ 1299,00</p>
+          <div class="rating-box">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+        <div class="products-grid-card">
+          <span class="label new">New</span>
+          <img src="/img/prod-2.jpg" alt="Microfone HyperX QuadQuest" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Nome do Produto</h3>
+          <p class="product-price">R$ 899,00</p>
+          <div class="rating-box">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+        <div class="products-grid-card">
+          <span class="label new">New</span>
+          <img src="/img/prod-3.jpg" alt="Smart TV Samsung 55'" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Nome do Produto</h3>
+          <p class="product-price">R$ 1999,00</p>
+          <div class="rating-box">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+        <div class="products-grid-card">
+          <span class="label new">New</span>
+          <img src="/img/prod-4.jpg" alt="Gabinete Gamer Gamdias" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Nome do Produto</h3>
+          <p class="product-price">R$ 1299,00</p>
+          <div class="rating-box">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+      </div>
+    </div>
+    <!-- Deal -->
+    <div class="deal-container">
+      <div class="deal-container-content">
+        <div class="deal-container-content-timer">
+          <div class="deal-container-timer">
+            <span class="deal-container-timer-timing">03</span>
+            <span class="deal-container-timer-word">Dias</span>
+          </div>
+          <div class="deal-container-timer">
+            <span class="deal-container-timer-timing">17</span>
+            <span class="deal-container-timer-word">Horas</span>
+          </div>
+          <div class="deal-container-timer">
+            <span class="deal-container-timer-timing">25</span>
+            <span class="deal-container-timer-word">Minutos</span>
+          </div>
+          <div class="deal-container-timer">
+            <span class="deal-container-timer-timing">30</span>
+            <span class="deal-container-timer-word">Segundos</span>
+          </div>
+        </div>
+        <h2 class="deal-container-content-title">Promoção de Headsets</h2>
+        <p class="deal-container-content-subtitle">
+          Toda a linha de periféricos com até 75% de desconto
+        </p>
+        <button class="btn">Comprar Agora</button>
+      </div>
+    </div>
+    <!-- Mais vendidos -->
+    <div class="products-grid">
+      <h2>Produtos Mais Vendidos</h2>
+      <div class="products-grid-container">
+        <div class="products-grid-card">
+          <span class="label hot">Hot</span>
+          <img src="/img/prod-5.jpg" alt="Controller Xbox One Series" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Nome do Produto</h3>
+          <p class="product-price">R$ 399,00</p>
+          <div class="rating-box">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+        <div class="products-grid-card">
+          <span class="label hot">Hot</span>
+          <img src="/img/prod-6.jpg" alt="Samsung Galaxy S24" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Nome do Produto</h3>
+          <p class="product-price">R$ 899,00</p>
+          <div class="rating-box">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+        <div class="products-grid-card">
+          <span class="label hot">Hot</span>
+          <img src="/img/prod-7.jpg" alt="Notebook Acer" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Nome do Produto</h3>
+          <p class="product-price">R$ 1999,00</p>
+          <div class="rating-box">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+        <div class="products-grid-card">
+          <span class="label hot">Hot</span>
+          <img src="/img/prod-8.jpg" alt="Mouse Gamer Lenovo M300" />
+          <p class="category">Categoria</p>
+          <h3 class="product-name">Nome do Produto</h3>
+          <p class="product-price">R$ 129,00</p>
+          <div class="rating-box">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <button class="btn">Comprar</button>
+        </div>
+      </div>
+    </div>
+    <!-- newsletter -->
+    <div class="newsletter-container">
+      <h2>Assine a nossa <span>Newsletter</span></h2>
+      <form action="">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Seu endereço de email"
+        />
+        <input type="button" value="Assinar" class="btn btn-half" />
+      </form>
+      <div class="social-media">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-pinterest"></i>
+        <i class="fab fa-facebook-f"></i>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-top-about">
+          <h3>Sobre nós</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
+            itaque sequi commodi dignissimos ratione incidunt sit deserunt
+            explicabo, consectetur culpa magnam error laboriosam quisquam eius
+            eum voluptatibus quas excepturi cum?
+          </p>
+          <p>
+            <i class="fas fa-location-arrow"></i>
+            <a href="#">Rua da Alegria, 123</a>
+          </p>
+          <p><i class="fas fa-phone"></i> <a href="#">(99) 9 9999-9999</a></p>
+          <p><i class="far fa-envelope"></i> <a href="#">voxygen@vox.com</a></p>
+        </div>
+        <div class="footer-top-categories">
+          <h3>Categorias</h3>
+          <ul>
+            <li>
+              <a href="#">Promoções</a>
+            </li>
+            <li>
+              <a href="#">Headsets</a>
+            </li>
+            <li>
+              <a href="#">Gamer</a>
+            </li>
+            <li>
+              <a href="#">Hardware</a>
+            </li>
+            <li>
+              <a href="#">Periféricos</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top-information">
+          <h3>Informações</h3>
+          <ul>
+            <li>
+              <a href="#">Sobre nós</a>
+            </li>
+            <li>
+              <a href="#">Contato</a>
+            </li>
+            <li>
+              <a href="#">Política de Privacidade</a>
+            </li>
+            <li>
+              <a href="#">Pedidos e Devoluções</a>
+            </li>
+            <li>
+              <a href="#">Termos e Condições</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top-menu">
+          <h3>Menu</h3>
+          <ul>
+            <li>
+              <a href="#">Minha conta</a>
+            </li>
+            <li>
+              <a href="#">Carrinho</a>
+            </li>
+            <li>
+              <a href="#">Lista de desejos</a>
+            </li>
+            <li>
+              <a href="#">Rastreamento</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-payments">
+          <i class="fab fa-cc-mastercard"></i>
+          <i class="fab fa-cc-visa"></i>
+          <i class="fab fa-cc-diners-club"></i>
+          <i class="fab fa-cc-amazon-pay"></i>
+          <i class="fab fa-cc-apple-pay"></i>
+        </div>
+        <p>Copyright &copy; 2025 - voXygen</p>
+      </div>
+    </footer>
+  </body>
+</html>
