@@ -63,8 +63,8 @@ Este projeto está aberto para uso pessoal e educacional. Caso queira uma licen�
 
 Para dúvidas, sugestões ou suporte, entre em contato:
 
-- Email: voxygen@vox.com
-- Telefone: (99) 99999-9999
+- Email: fabriciofrontdev@gmail.com
+- Telefone: (79) 98854-2479
 
 ---
 
